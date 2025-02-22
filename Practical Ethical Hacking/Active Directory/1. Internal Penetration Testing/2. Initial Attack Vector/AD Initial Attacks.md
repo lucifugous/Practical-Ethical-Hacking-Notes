@@ -13,7 +13,7 @@ sudo responder -I eth0 -dwv
 * When any user in tries to connect to another user or file share which the domain server can not resolve to any location, responder sends poisoned response and replies on behalf of the server that it knows where the destination is and asks for hash to authenticate and referred to the location which results in our output **(NTLMV2 Hash)**
 #### Output 
 * NTLM V2 hash
-* Use [Hashcat]() to crack plaintext password from the hash :
+* Use [Hashcat](https://github.com/lucifugous/Practical-Ethical-Hacking-Notes/blob/main/Practical%20Ethical%20Hacking/Hashcat/Hashcat.md) to crack plaintext password from the hash :
 ```
 	hashcat -m 5600 hash.txt wordlist.txt
 	hashcat -m 5600 hash.txt wordlist.txt --show
