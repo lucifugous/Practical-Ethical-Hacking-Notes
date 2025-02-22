@@ -27,8 +27,8 @@ sudo responder -I eth0 -dwv
 #### Tools
 - **nmap**
 - **Responder**
-* **impacket-ntlmrelayx**
-* **ntlmrelayx.py**
+- **impacket-ntlmrelayx**
+- **ntlmrelayx.py**
 
 ### Requirement
 1. The host needs to have SMB sign in enabled but not enforced/ required. Check with following command 
